@@ -134,13 +134,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "json_designing_flutter_package",
+      "name": "json_designing_flutter",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2022-12-29T17:17:56.335548Z",
+  "generated": "2022-12-29T18:07:19.962143Z",
   "generator": "pub",
   "generatorVersion": "2.19.0-177.0.dev"
 }

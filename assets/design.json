@@ -1,0 +1,11 @@
+{
+    "widget": "Container",
+    "props": {
+        "child": {
+            "widget": "Text",
+            "props": {
+                "data": "Hello World",
+            }
+        }
+    }
+}
