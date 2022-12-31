@@ -11,29 +11,57 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Write json file with widgets use this to convert it to flutter designs
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This package helps convert json file to flutter code
+[Note: The package is under active development]
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Start by adding the package to your `pubspec.yaml` file
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  json_designing_flutter:
+```
+
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+You should have a `Map<String, dynamic>` or `List<Map<String, dynamic>>` object converted from the json string
 
 ```dart
-const like = 'sample';
+var data = json.decode(dataString);
+dataMap = Map<String, dynamic>.from(data);
+```
+
+or
+
+```dart
+var data = json.decode(dataString);
+dataList = List<Map<String, dynamic>>.from(data);
+```
+Wherever you want to use place the widget write this
+`JsonConverter.getWidget(dataMap)` or `JsonConverter.getWidgetList(dataList)`
+
+```dart
+return Container(
+    child: JsonConverter.getWidget(dataMap),
+);
+```
+or
+
+
+```dart
+return Column(
+    children: JsonConverter.getWidgetList(dataList),
+);
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+The github link is https://github.com/simranss/json_designing_flutter_package
+You can go on contribute to the project on this github repository

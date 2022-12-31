@@ -1,5 +1,5 @@
 name: json_designing_flutter
-description: A new Flutter package project.
+description: A Flutter package to help convert json code to flutter code
 version: 0.0.1
 homepage: https://github.com/simranss/json_designing_flutter_package.git
 
