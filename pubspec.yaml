@@ -1,7 +1,7 @@
 name: json_designing_flutter
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/simranss/json_designing_flutter_package.git
 
 environment:
   sdk: '>=2.19.0-177.0.dev <3.0.0'
