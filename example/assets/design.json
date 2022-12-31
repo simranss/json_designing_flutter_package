@@ -1,0 +1,92 @@
+{
+    "widget": "Padding",
+    "props": {
+        "left": 16,
+        "right": 16,
+        "top": 8,
+        "bottom": 8,
+        "child": {
+            "widget": "Column",
+            "props": {
+                "children": [
+                    {
+                        "widget": "Container",
+                        "props": {
+                            "color": "ffff00",
+                            "height": 30
+                        }
+                    },
+                    {
+                        "widget": "Text",
+                        "props": {
+                            "data": "Hello, this is Simran Sharma",
+                            "font_size": 20
+                        }
+                    },
+                    {
+                        "widget": "Text",
+                        "props": {
+                            "data": "Hello, this is Simran Sharma",
+                            "font_size": 30
+                        }
+                    },
+                    {
+                        "widget": "Text",
+                        "props": {
+                            "data": "Hello, this is Simran Sharma",
+                            "font_size": 50
+                        }
+                    },
+                    {
+                        "widget": "Text",
+                        "props": {
+                            "data": "Hello, this is Simran Sharma",
+                            "font_size": 40
+                        }
+                    },
+                    {
+                        "widget": "Text",
+                        "props": {
+                            "data": "Hello, this is Simran Sharma",
+                            "font_size": 60
+                        }
+                    },
+                    {
+                        "widget": "Text",
+                        "props": {
+                            "data": "Hello, this is Simran Sharma",
+                            "font_size": 34
+                        }
+                    },
+                    {
+                        "widget": "Text",
+                        "props": {
+                            "data": "Hello, this is Simran Sharma",
+                            "font_size": 23
+                        }
+                    },
+                    {
+                        "widget": "Text",
+                        "props": {
+                            "data": "Hello, this is Simran Sharma"
+                        }
+                    },
+                    {
+                        "widget": "Container",
+                        "props": {
+                            "color": "0000ff",
+                            "child": {
+                                "widget": "Text",
+                                "props": {
+                                    "data": "Hello, this is Simran Sharma",
+                                    "color": "ffffff"
+                                }
+                            },
+                            "height": 30
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
